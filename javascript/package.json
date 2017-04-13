@@ -1,0 +1,30 @@
+{
+  "name": "javascript-eslint",
+  "version": "1.0.0",
+  "description": "javascript eslint configurations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hello world ~\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ezirmusitua/code-styles.git"
+  },
+  "keywords": [
+    "javascript",
+    "eslint",
+    "code-style"
+  ],
+  "author": "jferroal@gmailc.om",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezirmusitua/code-styles/issues"
+  },
+  "homepage": "https://github.com/ezirmusitua/code-styles#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
