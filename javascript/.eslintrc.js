@@ -3,7 +3,7 @@ module.exports = {
         ecmaVersion: 8,
         ecmaFeatures: {
             experimentalObjectRestSpread: true,
-            jsx: true
+            jsx: false
         },
         sourceType: 'module'
     },
@@ -13,7 +13,7 @@ module.exports = {
         'node': true
     },
 
-    plugins: ['import', 'node', 'promise', 'standard'],
+    plugins: [],
 
     globals: { document: false, navigator: false, window: false },
 
@@ -23,7 +23,7 @@ module.exports = {
         'block-spacing': ['error', 'always'],
         'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
         camelcase: ['error', { 'properties': 'never' }],
-        'comma-dangle': ['only-multiline'],
+        'comma-dangle': ['error', 'only-multiline'],
         'comma-spacing': ['error', { 'before': false, 'after': true }],
         'constructor-super': 'error',
         'curly': ['error', 'multi-line'],
@@ -154,13 +154,6 @@ module.exports = {
         'valid-typeof': ['error', { 'requireStringLiterals': true }],
         'wrap-iife': ['error', 'any', { 'functionPrototypeMethods': true }],
         'yield-star-spacing': ['error', 'both'],
-        'yoda': ['error', 'never'],
-        'import/export': 'error',
-        'import/first': 'error',
-        'import/no-absolute-path': 'error',
-        'import/no-duplicates': 'error',
-        'import/no-webpack-loader-syntax': 'error',
-        'node/no-deprecated-api': 'error',
-        'node/process-exit-as-throw': 'error',
+        'yoda': ['error', 'never']
     }
 };
