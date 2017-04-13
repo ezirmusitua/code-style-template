@@ -1,5 +1,6 @@
 // 将设置放入此文件中以覆盖默认值和用户设置。
 {
+  // eslint
   "eslint.enable": true,
   // A path added to NODE_PATH when resolving the eslint module.
   "eslint.nodePath": null,
@@ -18,5 +19,25 @@
   "eslint.validate": [
     "javascript",
     "javascriptreact"
-  ]
+  ],
+  // tslint
+  "tslint.enable": true,
+  // Control whether tslint is enabled for JavaScript files or not.
+  "tslint.jsEnable": false,
+  // An additional rules directory
+  "tslint.rulesDirectory": "",
+  // Validate a file when there is only a default tslint configuration is found
+  "tslint.validateWithDefaultConfig": false,
+  // The path to the rules configuration file
+  "tslint.configFile": "",
+  // Control if TypeScript definition files should be ignored
+  "tslint.ignoreDefinitionFiles": true,
+  // Configure glob patterns of file paths to exclude from linting
+  "tslint.exclude": "",
+  // Run the linter on save (onSave) or on type (onType)
+  "tslint.run": "onSave",
+  // A path added to NODE_PATH when resolving the tslint module.
+  "tslint.nodePath": "",
+  // Turns auto fix on save on or off.
+  "tslint.autoFixOnSave": true
 }
