@@ -19,7 +19,7 @@
         "no-empty": true,
         "no-eval": true,
         "forin": true,
-        "curly": true,
+        "curly": true
     },
     "rules": {
         "no-magic-numbers": true,

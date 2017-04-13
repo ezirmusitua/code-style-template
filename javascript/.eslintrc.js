@@ -135,7 +135,7 @@ module.exports = {
         'prefer-promise-reject-errors': 'error',
         quotes: ['error', 'single', { 'avoidEscape': true, 'allowTemplateLiterals': true }],
         'rest-spread-spacing': ['error', 'never'],
-        'semi': ['error', 'never'],
+        'no-extra-semi': "error",
         'semi-spacing': ['error', { 'before': false, 'after': true }],
         'space-before-blocks': ['error', 'always'],
         'space-before-function-paren': ['error', 'always'],
